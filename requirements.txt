@@ -15,4 +15,4 @@ scipy
 Flask
 Flask-Cors
 setuptools
-#-e .
+-e .

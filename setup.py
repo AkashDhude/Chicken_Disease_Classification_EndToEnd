@@ -1,7 +1,8 @@
 import setuptools
 
-with open("README.md", "r", enconding="utf-8") as f:
+with open("README.md", "r") as f:
     long_description = f.read()
+
 
 
 __version__ = "0.0.0"
@@ -21,5 +22,5 @@ setuptools.setup(
     long_description=long_description,
     long_description_content="text/markdown",
     url=f"https://github.com/{AUTHOR_USER_NAME}/{REPO_NAME}"
-    
+
 )

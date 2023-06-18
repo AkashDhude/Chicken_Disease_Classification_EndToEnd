@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: Chicken-Disease-Classification
+Version: 0.0.0
+Summary: A small python package for CNN app.
+Home-page: https://github.com/AkashDhude/Chicken_Disease_Classification_EndToEnd
+Author: AkashDhude
+Author-email: akashdhude02@gmail.com
+
+Chicken Disease Classification EndToEnd Implementation
