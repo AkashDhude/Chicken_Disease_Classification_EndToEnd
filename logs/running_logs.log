@@ -1,1 +1,67 @@
 [2023-06-18 11:42:40,486: INFO: main: Welcome to Chicken Disease Classifier]
+[2023-06-19 19:55:38,931: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-19 19:55:39,036: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-19 19:55:39,051: INFO: common: artifacts created successfully]
+[2023-06-19 19:55:39,053: INFO: common: artifacts/data_ingestion created successfully]
+[2023-06-19 19:56:00,905: INFO: 3082177967: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 11616915
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "adf745abc03891fe493c3be264ec012691fe3fa21d861f35a27edbe6d86a76b1"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 98DC:73DB:28AED:344FF:64906564
+Accept-Ranges: bytes
+Date: Mon, 19 Jun 2023 14:25:41 GMT
+Via: 1.1 varnish
+X-Served-By: cache-ccu830037-CCU
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1687184740.393636,VS0,VE865
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 90008690a1910288620820d3f3f18297b9137f7b
+Expires: Mon, 19 Jun 2023 14:30:41 GMT
+Source-Age: 0
+
+]
+[2023-06-19 22:20:38,262: INFO: main: >>>> stage Data Ingestion Stage started <<<<<]
+[2023-06-19 22:20:38,283: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-19 22:20:38,344: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-19 22:20:38,345: INFO: common: artifacts created successfully]
+[2023-06-19 22:20:38,346: INFO: common: artifacts/data_ingestion created successfully]
+[2023-06-19 22:21:01,870: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 11616915
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "adf745abc03891fe493c3be264ec012691fe3fa21d861f35a27edbe6d86a76b1"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: F6D8:39CA:683D:9087:64908760
+Accept-Ranges: bytes
+Date: Mon, 19 Jun 2023 16:50:41 GMT
+Via: 1.1 varnish
+X-Served-By: cache-ccu830040-CCU
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1687193440.356156,VS0,VE1049
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: af96a94d5f94c9f53094e61c42fa5b91eceed55c
+Expires: Mon, 19 Jun 2023 16:55:41 GMT
+Source-Age: 1
+
+]
+[2023-06-19 22:21:02,401: INFO: main: >>>> Stage Data Ingestion Stage comleted <<<<<
+
+x----------------------x]

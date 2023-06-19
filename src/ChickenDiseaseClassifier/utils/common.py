@@ -1,7 +1,7 @@
 import os
 from box.exceptions import BoxValueError
 import yaml
-from Chicken_Disease_Classification import logger
+from ChickenDiseaseClassifier import logger
 import json
 import joblib
 from ensure import ensure_annotations
@@ -89,8 +89,36 @@ def load_json(path:Path) -> ConfigBox:
     return ConfigBox(data)
 
 
+@ensure_annotations
+def load_bin(path: Path) -> Any:
+    """load binary data
+
+    Args:
+        path (Path): path to binary file
+
+    Returns:
+        Any: object stored in the file
+    """
+    data = joblib.load(path)
+    logger.info(f"binary file loaded from: {path}")
+    return data
+
+@ensure_annotations
+def get_size(path: Path) -> str:
+    """get size in KB
+
+    Args:
+        path (Path): path of the file
+
+    Returns:
+        str: size in KB
+    """
+    size_in_kb = round(os.path.getsize(path)/1024)
+    return f"~ {size_in_kb} KB"
+
+
 def decodeImage(imgstring, filename):
-    imfdata = base64.b64decode(imgstring)
+    imgdata = base64.b64decode(imgstring)
     with open(filename, 'wb') as f:
         f.write(imgdata)
         f.close()
